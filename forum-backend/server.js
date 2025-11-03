@@ -20,7 +20,7 @@ mongoose.connect('mongodb+srv://ForumApp:MxIZA53B1@forumapp.rvjzldm.mongodb.net/
 .catch(err => console.error('MongoDB connection error:', err)); // 8
 
 app.get('/', (req, res) => {       // 9
-  res.send('API odudhu');          // 10
+  res.send('API is running');          // 10
 });
 
 app.use('/api/posts', postsRoutes);

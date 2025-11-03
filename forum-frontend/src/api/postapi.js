@@ -6,6 +6,8 @@ const postApi = axios.create({
   baseURL: API_URL,
 });
 
+//Add request interceptor to attach token automatically
+
 export default postApi;
 
 //Axios as a messenger between your app and the server
